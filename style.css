@@ -6,27 +6,57 @@
 }
 
 body {
-    font-family: 'Montserrat', sans-serif;
-   
     margin: 0;
-    font-family: Arial, sans-serif;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+    background: linear-gradient(270deg, rgba(249, 252, 255, 0) 15%, #F9FCFF 34.5%);
 }
+
+
+body, html {
+    overflow: hidden;
+  }
+  
 
 /* Navbar Styles */
 .navbar {
-    background-color: white;
+    background: linear-gradient(270deg, rgba(249, 252, 255, 0) 15%, #F9FCFF 34.5%);
     color: #fff;
     height: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
+    transition: top 0.3s;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
 }
-
+  
+  .navbar.hidden {
+    top: -100px; /* Adjust this value based on your navbar height */
+  }
+  
+.navbar-1{
+    width: 300px;
+    height: 50px;
+    background-color: whitesmoke;
+    
+}
 .navbar-container {
     display: flex;
-    justify-content: space-between;
+  
     align-items: center;
+    margin-top: 50px;
+    background-color: white;
+    border-radius: 20px;
+    height: 80px;
+    width: 1,180px;
+height:  80px;
+border-radius: 25px 25px 25px 25px;
+opacity: 0px;
+border: 0.5px solid #F1F5FA
 }
 
 .navbar-logo img {
@@ -90,7 +120,7 @@ body {
     width: 100%;
     max-width: 1200px;
     padding: 0 20px;
-    justify-content: space-between;
+
 }
 
 .navbar-logo img {
@@ -158,37 +188,56 @@ body {
 .aaat{
     background-color: blueviolet;
     color: white;
-    width: 120px;
+    width: 150px;
     height: 40px;
     border-radius: 10px;
     border: 0px;
 }
 .talents{
-    font-family: Proxima Nova;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 font-size: 44px;
-font-weight: 700;
+font-weight: 650;
 line-height: 53.59px;
+width: 595px;
+height: 108px;
+gap: 0px;
+opacity: 0px;
 }
 .talents-1{
     padding-left: 120px;
 }
 .hiring{
-    font-family: Proxima Nova;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 font-size: 18px;
-font-weight: 400;
+font-weight: 300;
 line-height: 26px;
 text-align: left;
 color: #555973;
+width: 595px;
+height: 104px;
+gap: 0px;
+opacity: 0px;
+
 }
 .sh-1 button{
- height: 30px;
- width: 150px;
- border-radius: 10px;
+ width:  237px;
+ height: 50px;
+ padding: 10px 10px 10px 10px;
+ gap: 23px;
+ border-radius: 8px 8px 8px 8px;
+ border: 1px 1px 1px 1px;
+ opacity: 0px;
+ cursor: pointer;
 }
 .sh{
     background-color: blueviolet;
     border: 0px;
    color: white;
+   font-style: normal;
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 16px;
+font-weight: 600;
+line-height: 19.49px;
 }
 .sh-1 button img{
     height: 15px;
@@ -199,6 +248,11 @@ color: #555973;
 .sh-2{
     color: blueviolet;
     border-color: blueviolet;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 16px;
+font-weight: 600;
+line-height: 19.49px;
+border: 1px solid #0967D2;
 }
 .image-container {
     position: absolute;
@@ -213,6 +267,9 @@ color: #555973;
     top: 0;
     left: 0;
     z-index: 2;
+    margin-left: -100px;
+    width: 700px;
+    height: 700px;
 }
 
 .group372 {
@@ -290,6 +347,9 @@ line-height: 53.59px;
 text-align: center;
 color: var(--Text-dark, #040A33);
 }
+.whe-1{
+  padding-left: 160px;
+}
 .why{
     font-family: Proxima Nova;
 font-size: 20px;
@@ -315,6 +375,7 @@ font-weight: 700;
 line-height: 29px;
 text-align: left;
 color: var(--Text-dark, #040A33);
+cursor: pointer;
 }
 .hire{
     width: 385px;
@@ -331,7 +392,7 @@ margin: 0;
 }
 
 .dhl{
-    padding-left: 120px;
+    padding-left: 200px;
     margin: 50px 0;
 }
 
@@ -355,6 +416,40 @@ margin: 0;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    border: 0px;
+}
+.Software-eng-1 {
+    width: 100%;
+    height: 100vh; 
+    background-image: url('./web images/Vector 110 (13).png');
+    background-position: center;
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-color: #dcf9fb;
+}
+.Software-eng-0{
+    margin-top: 50px;
+    margin-left: -150px;
+}
+.Software-eng-2{
+    padding-left: 950px;
+    padding-top: 50px;
+}
+.hire-container-1{
+    margin-top: 40px;
+}
+
+.Software-eng{
+    font-family: Proxima Nova;
+font-size: 30px;
+font-weight: 700;
+line-height: 29px;
+text-align: right;
+width: 266px;
+height: 29px;
+gap: 0px;
+opacity: 0px;
+margin-left: 100px;
 }
 
 .product{
@@ -370,22 +465,41 @@ font-weight: 700;
 line-height: 29px;
 text-align: left;
 color: var(--Text-dark, #040A33);
+cursor: pointer;
 }
 .product-1{
     padding-left: 120px;
     padding-top: 30px;
-    background-image: url('./web images/Vector 110 (2).png');
+    background-image: url('./web images/Vector 110 (14).png');
     padding-bottom: 50px;
-    background-color: wheat;
+    background-size: cover;
+    background-color: #fbf8dc;
+    margin-top: -30px;
+}
+.product-0{
+    padding-left: 120px;
+    margin-top: 10px;
+}
+.product-man-0{
+    margin-top: 40px;
+    margin-left: -80px;
+}
+.more-talents{
+    margin-left: 220px;
+    padding-top: 50px;
+    margin-bottom: 30px;
+}
+.more-talents-0{
+    margin-top: 20px;
 }
 .software-1{
     padding-left: 120px;
     padding-top: 30px;
-    background-image: url('./web images/Vector 110 (3).png');
+    background-image: url('./web images/Vector 110 (15).png');
     padding-bottom: 50px;
-    background-color: #DCFBE3;
-    padding-left: 1000px;
+    background-color: #dcfbe3;
     margin-top: -60px;
+    background-size: cover;
 }
 .software{
     width: 250px;
@@ -398,6 +512,28 @@ color: var(--Text-dark, #040A33);
     font-weight: 700;
     line-height: 29px;
     color: var(--Text-dark, #040A33);
+    cursor: pointer;
+    margin-left: 150px;
+}
+.software-test{
+    
+    padding-left: 950px;
+}
+.software-test-0{
+    margin-top: 40px;
+    margin-left: -40px;
+}
+.hidden-section {
+    display: none;
+}
+.section-heading {
+    cursor: pointer;
+}
+.more-talents-1{
+    background-image: url('./web images/Vector 110 (16).png');
+    margin-top: -30px;
+    background-color: #EADCFB;
+    background-size: cover;
 }
 .vector-4{
     width: 1370px;
@@ -430,7 +566,7 @@ color: var(--Text-dark, #040A33);
     background-image: url('./web images/Rectangle\ 10@2x.png');
 }
 .vector-4-0{
-    background-color:  #DCEBFB;
+    background-color:  
 }
 .we-have{
     width: 1180px;
@@ -711,7 +847,7 @@ color: #555973;
 }
 .Sandra-Kalu-1{
     width: 255px;
-height:  359px;
+height:  435px;
 padding: 20px 0px 0px 0px;
 gap: 10px;
 border-radius: 10px 10px 10px 10px;
@@ -719,6 +855,7 @@ border: 0.5px 0px 0px 0px;
 opacity: 0px;
 border: 0.5px solid #E9EAF2;
 box-shadow: 0px 0px 21.9px 0px #040A330D;
+background-color: white;
 }
 .Sandra-Kalu-2{
     width:209px;
@@ -890,6 +1027,7 @@ padding-left: 20px;
     align-items: center; /* Align items vertically */
     margin-top: 20px;
     padding-left: 60px;
+    cursor: pointer;
 }
 
 /* Spacing between the text and the arrow */
@@ -974,6 +1112,9 @@ align-items: center;
     display: flex;
     gap: 20px;
     justify-content: center;
+}
+.sandra-0{
+    margin-left: 200px;
 }
 .performance{
     width: 1180px;
