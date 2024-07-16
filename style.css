@@ -669,6 +669,7 @@ box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 .two-columns {
     display: flex;
     padding: 20px;
+    margin-left: 80px;
    
 gap: 37px;
 opacity: 0px;
@@ -784,7 +785,7 @@ line-height: 26px;
 color:  #555973;
 }
 .the-effort-1{
-    padding-left: 110px;
+    padding-left: 190px;
 }
 
 .learn-more-container {
@@ -1315,7 +1316,7 @@ opacity: 0px;
 background: #FFFFFF;
 border: 0.5px solid #E9EAF2;
 box-shadow: 0px 0px 21.9px 0px #040A330D;
-margin-left: 80px;
+margin-left: 125px;
 display: flex;
 align-items: flex-start;
 }
@@ -1430,7 +1431,7 @@ margin-top: 25px;
 .top-skills-0{
     display: flex;
     gap: 40px;
-    margin-left: 80px;
+    margin-left: 125px;
     margin-top: 20px;
 }
 .join-our{
